@@ -1,0 +1,31 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+application_default_credentials.json
+
+# Jupyter, IDE, and operating-system files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
